@@ -1,0 +1,54 @@
+---
+title: "AVGInterventionData"
+author: "Jonathan Slaney"
+date: "12/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Necessary Packages
+
+```{r}
+library(tidyverse)
+library(ggmap)
+library(lubridate)
+library(shiny)
+library(ggplot2)
+```
+
+# Read in data
+
+```{r}
+library(readr)
+AVG_Int_Data <- read_csv("C:/Users/jslan/Desktop/AVG_Int_Data.csv")
+View(AVG_Int_Data)
+```
+
+# Create Cut points
+##Variables for experimental group meeting CPAG (EM), not meeting CPAG (EN) and control group meeting (CM) or not meeting (CN).
+
+```{r}
+
+```
+
+# Group by EM, calc mean, sd and ranges
+
+```{r}
+
+```
+
+# Repeat for other subsets
+
+```{r}
+
+```
+
+# Create Data Visualizations (using ggplot2)
+
+```{r}
+
+```
+
